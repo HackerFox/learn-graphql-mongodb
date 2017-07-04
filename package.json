@@ -1,0 +1,8 @@
+{
+  "name": "learn-graphql-mongodb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:milhamhidayat/learn-graphql-mongodb.git",
+  "author": "<m.ilham.hidayat.95@gmail.com>",
+  "license": "MIT"
+}
