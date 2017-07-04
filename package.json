@@ -2,7 +2,23 @@
   "name": "learn-graphql-mongodb",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js --exec babel-node --presets  es2015,stage-2"
+  },
   "repository": "git@github.com:milhamhidayat/learn-graphql-mongodb.git",
   "author": "<m.ilham.hidayat.95@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "express-graphql": "^0.6.6",
+    "graphql": "^0.10.3",
+    "mongoose": "^4.11.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "nodemon": "^1.11.0"
+  }
 }
