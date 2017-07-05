@@ -13,5 +13,5 @@ Simple graphql implementation using mongodb
 ```
 1. yarn install
 2. yarn start
-3. Open browser, type localhost:300/graphql
+3. Open browser, type localhost:3000/graphql
 4. Type your query or mutation
