@@ -3,7 +3,7 @@ import mongoose from 'mongoose'
 import graphqlHTTP from 'express-graphql'
 import bodyParser from 'body-parser'
 
-// import schema from './graphql'
+import schema from './graphql'
 
 const app = express()
 
@@ -23,11 +23,11 @@ app.get('/', (req, res) => {
 
 // GraphQL API Endpoint
 
-// app.use('/graphql', graphqlHTTP(() => ({
-//     schema,
-//     graphiql: true,
-//     pretty: true
-// })))
+app.use('/graphql', graphqlHTTP(() => ({
+    schema,
+    graphiql: true,
+    pretty: true
+})))
 
 app.listen(3000, () => {
     console.log('Express connected to port 3000')
